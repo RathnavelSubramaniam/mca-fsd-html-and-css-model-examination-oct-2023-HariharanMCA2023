@@ -1,0 +1,60 @@
+
+html {background-color:aqua;}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2 {padding:1em;}
+header {border-bottom: 2px solid green;}
+body {
+  width: 90%;
+  background-color: white;
+  margin:15px auto;
+  border: 1px solid black;
+}
+
+.menu-bar {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.menu-bar nav ul {
+    list-style: none;
+}
+
+.menu-bar nav ul li {
+    display:inline;
+    margin-right: 10px;
+}
+
+.menu-bar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+  width: 66%;
+  height: 350px;
+  border-right: 2px solid green ;
+  float: left;
+}
+
+main img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+aside{
+  width:33% ;
+  float: right; 
+}
+footer{
+  clear:both;
+  border-top: 2px solid green;
+}

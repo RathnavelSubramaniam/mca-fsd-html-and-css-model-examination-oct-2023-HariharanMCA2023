@@ -1,0 +1,150 @@
+.menu {
+    align-items: center;
+    justify-content: center;
+    list-style: armenian;
+    margin: 1%;
+    padding: 1%;
+  }
+  
+  .menu li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:white;
+    border: 1px solid #e10000;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .submenu li a {
+    padding: 10px 20px;
+  }
+  
+  /* Additional styling can be added as needed */
+  
+  .submenu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: red;
+    border: 1px solid #ccc;
+  }
+  
+  .menu li:hover .submenu .submenu2{
+    display: block;
+  }
+  
+  .submenu2 li {
+    display: block;
+  }
+  
+  .submenu2 li a {
+    padding: 10px 20px;
+  }
+  
+  
+  
+  /* Reset some default styles */
+  body, h1 {
+    color:white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, h2,p {
+    color: orangered;
+    margin: 0;
+    padding: 0;
+  }
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Style the main content */
+  main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem;
+  }
+  .Description{
+   color: brown;
+  }
+  
+  
+  /* Style individual product sections */
+  /* .product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    max-width: 300px;
+  } */
+  
+  
+  .product{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 14px;
+  }
+  
+  .product img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    transition-duration: 1s;
+  }
+  
+  /* Style the "Add to Cart" button */
+  button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  
+  
+  body{
+    background-color: white;
+    /* background-image: url(images/flipkart1.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+  }
